@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="84.0" prefWidth="242.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.tbz.client.frontend.controller.NewGroupChatController">
+   <children>
+      <TextField fx:id="name" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="211.0" promptText="Groupchat name" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="16.80000000000001" AnchorPane.topAnchor="14.0" />
+      <Button layoutX="174.0" layoutY="48.0" mnemonicParsing="false" onAction="#createClicked" text="Create" AnchorPane.bottomAnchor="10.8" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="17.6" />
+   </children>
+</AnchorPane>
